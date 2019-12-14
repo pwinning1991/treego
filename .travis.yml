@@ -11,7 +11,6 @@ script:
 deploy:
   provider: releases
   api_key: $access_key
-  skip_cleanup: true
   file: treego
   on:
     tags: true
