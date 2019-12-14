@@ -4,4 +4,13 @@ go:
   - 1.12.x
 
 script:
+  - make build
   - make test
+
+deploy:
+  provider: releases
+  api_key:
+  skip_cleanup: true
+  file: treego
+  on:
+    tags: true
