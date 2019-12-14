@@ -59,11 +59,9 @@ advent_of_code
          └──input.txt
 ```
 ### TODO
-1. add tests
-2. add travis file
-3. add support for symlinks
-4. add count of files and directories to and of output command
-5. Add Support for hidden files/directories
+1. add support for symlinks
+2. add count of files and directories to and of output command
+3. Add Support for hidden files/directories
 
 ### Releases
 Found in the releases tab
